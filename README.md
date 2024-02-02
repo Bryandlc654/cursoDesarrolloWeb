@@ -23,7 +23,7 @@ Una página HTML es la unidad básica de contenido en la web. Está compuesta po
 Una página HTML puede ejecutarse localmente en un navegador o a través de un servidor web. El servidor local facilita el desarrollo al evitar problemas de política de origen al cargar recursos externos.
 
 ## 3. Meta UTF-8 en HTML
-El meta tag <meta charset="UTF-8"> especifica la codificación de caracteres utilizada en la página, asegurando la correcta interpretación de caracteres especiales.
+El meta tag meta charset="UTF-8" especifica la codificación de caracteres utilizada en la página, asegurando la correcta interpretación de caracteres especiales.
 ```html
 <meta charset="UTF-8">
 ```
@@ -35,7 +35,7 @@ Método 2: Escribir ! y presionar la tecla enter.
 
 
 ## 5. Títulos en HTML
-Los títulos <h1> a <h6> definen la jerarquía de la información. <h1> es el título principal y <h6> el menos relevante.
+Los títulos h1 a h6 definen la jerarquía de la información. h1 es el título principal y h6 el menos relevante.
 Facilita la comprensión y navegación del contenido. Los motores de búsqueda utilizan esta estructura para entender la relevancia de cada sección.
 ```html
 <h1>Encabezado H1</h1>
@@ -44,7 +44,7 @@ Facilita la comprensión y navegación del contenido. Los motores de búsqueda u
 ```
 
 ## 6. Párrafos en HTML
-Los elementos <p> se utilizan para estructurar el texto en párrafos, separando y organizando el contenido.
+Los elementos p se utilizan para estructurar el texto en párrafos, separando y organizando el contenido.
 
 ```html
 <p>Este es un párrafo de texto.</p>
@@ -52,7 +52,7 @@ Los elementos <p> se utilizan para estructurar el texto en párrafos, separando 
 ```
 
 ## 7. Links en HTML
- El elemento <a> se utiliza para crear enlaces a otras páginas web, recursos o ubicaciones dentro de la misma página.
+ El elemento a se utiliza para crear enlaces a otras páginas web, recursos o ubicaciones dentro de la misma página.
 
 ```html
 <a href="https://www.google.com">Enlace a Ejemplo.com</a>
@@ -73,7 +73,7 @@ Los atributos como href, src, alt, width, height, entre otros, personalizan y co
 
 
 ## Recursos Adicionales
-Tabla Periodica HTML ([text](https://lenguajehtml.com/html/introduccion/tabla-periodica-html5/))
+Tabla Periodica HTML ([Enlace](https://lenguajehtml.com/html/introduccion/tabla-periodica-html5/))
 
 
 

@@ -3,7 +3,7 @@
 ## Recursos Adicionales
 Tabla Periodica HTML ([Enlace](https://lenguajehtml.com/html/introduccion/tabla-periodica-html5/))
 
-Portafolio Bryan De la Cruz ([Enlace](https://lenguajehtml.com/html/introduccion/tabla-periodica-html5/))
+Portafolio Bryan De la Cruz ([Enlace](https://bryandelacruz.nextboostperu.com/))
 
 ## 1. Mi primer página HTML
 Una página HTML es la unidad básica de contenido en la web. Está compuesta por elementos HTML que se organizan jerárquicamente para estructurar y presentar información en un navegador web.

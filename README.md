@@ -1,5 +1,10 @@
 # Curso Desarrollo Web
 
+## Recursos Adicionales
+Tabla Periodica HTML ([Enlace](https://lenguajehtml.com/html/introduccion/tabla-periodica-html5/))
+
+Portafolio Bryan De la Cruz ([Enlace](https://lenguajehtml.com/html/introduccion/tabla-periodica-html5/))
+
 ## 1. Mi primer página HTML
 Una página HTML es la unidad básica de contenido en la web. Está compuesta por elementos HTML que se organizan jerárquicamente para estructurar y presentar información en un navegador web.
 
@@ -66,14 +71,59 @@ El elemento <img> se utiliza para incrustar imágenes en una página HTML.
 
 ## 9. Manejo de atributos
 Los atributos como href, src, alt, width, height, entre otros, personalizan y controlan el comportamiento de los elementos HTML.
+
 ```html
 <a href="https://www.ejemplo.com" target="_blank" title="Abrir en una nueva ventana">Enlace a Ejemplo.com</a>
 <img src="imagen.jpg" alt="Descripción de la imagen" width="300" height="200">
 ```
 
+## 10. Aplicar estilos CSS en HTML
+CSS (Cascading Style Sheets) se utiliza para dar estilo y diseño a las páginas HTML. Permite controlar la apariencia de elementos, como colores, márgenes, fuentes, y más.
 
-## Recursos Adicionales
-Tabla Periodica HTML ([Enlace](https://lenguajehtml.com/html/introduccion/tabla-periodica-html5/))
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo de Estilos CSS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 20px;
+        }
 
+        h1 {
+            color: #0077cc;
+        }
 
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <h1>Aplicando Estilos con CSS</h1>
+    <p>Este es un párrafo con estilos aplicados mediante CSS.</p>
+</body>
+</html>
+```
 
+## 11. Formato a texto en HTML
+Concepto: HTML proporciona etiquetas para formatear texto, como negrita (strong), cursiva (em), subrayado (u), entre otras.
+
+```html
+<p>Texto <strong>resaltado</strong> con negrita.</p>
+<p>Texto <em>enfasis</em> con cursiva.</p>
+<p>Texto <u>subrayado</u>.</p>
+```
+## 12. Referencias de Caracteres en HTML
+Las entidades HTML como &lt; representan caracteres especiales y símbolos que no pueden ser incluidos directamente en el código HTML.
+Permite mostrar caracteres especiales sin interferir con la interpretación del navegador.
+
+```html
+<p>&copy; 2024 Mi Empresa</p>
+<p>10 &lt; 20</p>
+```

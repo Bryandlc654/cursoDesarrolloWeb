@@ -5,6 +5,8 @@ Tabla Periodica HTML ([Enlace](https://lenguajehtml.com/html/introduccion/tabla-
 
 Portafolio Bryan De la Cruz ([Enlace](https://bryandelacruz.nextboostperu.com/))
 
+
+
 ## 1. Mi primer página HTML
 Una página HTML es la unidad básica de contenido en la web. Está compuesta por elementos HTML que se organizan jerárquicamente para estructurar y presentar información en un navegador web.
 
@@ -24,6 +26,72 @@ Una página HTML es la unidad básica de contenido en la web. Está compuesta po
 </html>
 ```
 
+## 1.1 Etiquetas en HTML
+HTML tiene varias etiquetas que se utilizan para definir la estructura y contenido de una página web. Aquí tienes una lista de algunos de los tipos de etiquetas más comunes en HTML:
+
+Etiquetas Básicas:
+```html
+<!DOCTYPE html>: Define el tipo de documento y la versión de HTML.
+<html>: Define el inicio del documento HTML.
+<head>: Contiene información sobre el documento, como metadatos y enlaces a archivos externos.
+<title>: Define el título del documento que se muestra en la barra del navegador.
+<body>: Contiene el contenido visible de la página.
+Estructura de Texto:
+<h1> a <h6>: Encabezados de diferentes niveles (1 es el más alto, 6 el más bajo).
+<p>: Define un párrafo de texto.
+<br>: Define un salto de línea.
+<hr>: Crea una línea horizontal.
+Listas:
+<ul>: Define una lista no ordenada.
+<ol>: Define una lista ordenada.
+<li>: Define un elemento de lista.
+Enlaces:
+<a>: Define un enlace (hipervínculo).
+Imágenes y Multimedia:
+<img>: Inserta una imagen.
+<audio>: Define contenido de audio.
+<video>: Define contenido de video.
+Formularios:
+<form>: Define un formulario.
+<input>: Define un campo de entrada en un formulario.
+<textarea>: Define un área de texto en un formulario.
+<button>: Define un botón en un formulario.
+Tablas:
+<table>: Define una tabla.
+<thead>, <tbody>, <tfoot>: Define las partes de una tabla (encabezado, cuerpo, pie).
+<tr>: Define una fila en una tabla.
+<th>: Define una celda de encabezado en una tabla.
+<td>: Define una celda de datos en una tabla.
+Otros:
+<div>: Define una división o contenedor genérico.
+<span>: Define una sección en línea.
+<strong>: Define texto importante y en negrita.
+<em>: Define texto enfatizado y en cursiva.
+<i>: Define texto en cursiva (no se recomienda, <em> es preferido).
+```
+
+## 1.2 Etiquetas Simples (Auto-cierre):
+Estas etiquetas no tienen contenido y se cierran automáticamente.
+```html
+<img src="imagen.jpg" alt="Descripción de la imagen">
+<br>
+<hr>
+<input type="text" placeholder="Nombre">
+<meta charset="UTF-8">
+```
+
+## 1.3 Etiquetas de Apertura y Cierre:
+Estas etiquetas tienen una apertura y un cierre explícitos, y pueden contener contenido entre ellas.
+```html
+<p>Este es un párrafo de texto.</p>
+<a href="https://www.google.com">Enlace a Google</a>
+<h1>Encabezado H1</h1>
+<ul>
+    <li>Elemento 1</li>
+    <li>Elemento 2</li>
+</ul>
+```
+
 ## 2. Formas de Ejecutar la Página Web HTML
 Una página HTML puede ejecutarse localmente en un navegador o a través de un servidor web. El servidor local facilita el desarrollo al evitar problemas de política de origen al cargar recursos externos.
 
@@ -37,28 +105,6 @@ El meta tag meta charset="UTF-8" especifica la codificación de caracteres utili
 Puedes generar la estructura inicial gracias a emmet, que viene incluido en vs code.
 Método 1: Escribir html y seleccionar de la lista a HTML5.
 Método 2: Escribir ! y presionar la tecla enter.
-
-## 4.1 Etiquetas Simples (Auto-cierre):
-Estas etiquetas no tienen contenido y se cierran automáticamente.
-```html
-<img src="imagen.jpg" alt="Descripción de la imagen">
-<br>
-<hr>
-<input type="text" placeholder="Nombre">
-<meta charset="UTF-8">
-```
-
-## 4.2 Etiquetas de Apertura y Cierre:
-Estas etiquetas tienen una apertura y un cierre explícitos, y pueden contener contenido entre ellas.
-```html
-<p>Este es un párrafo de texto.</p>
-<a href="https://www.google.com">Enlace a Google</a>
-<h1>Encabezado H1</h1>
-<ul>
-    <li>Elemento 1</li>
-    <li>Elemento 2</li>
-</ul>
-```
 
 ## 5. Comentarios en HTML
 Enseña la importancia de comentarios en el código para hacerlo más legible y comprensible.
@@ -449,27 +495,4 @@ Permite combinar celdas para estructurar mejor la información en tablas.
         <td>Fila 2 - Columna 2</td>
     </tr>
 </table>
-```
-
-## 27. Estilos CSS en tablas HTML
-Puedes aplicar estilos específicos a las tablas, celdas, filas y encabezados utilizando reglas CSS.
-Personaliza la apariencia de las tablas para que se ajusten al diseño general de la página.
-
-```html
-<style>
-    table {
-        width: 100%;
-        border-collapse: collapse;
-    }
-
-    th, td {
-        border: 1px solid #ddd;
-        padding: 10px;
-        text-align: center;
-    }
-
-    th {
-        background-color: #f2f2f2;
-    }
-</style>
 ```

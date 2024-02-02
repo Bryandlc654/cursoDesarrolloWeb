@@ -272,7 +272,7 @@ a:visited {
 ```
 
 ## 21. Links con imágenes en HTML
-Los enlaces en HTML pueden contener imágenes usando la etiqueta <img> dentro de la etiqueta <a>.
+Los enlaces en HTML pueden contener imágenes usando la etiqueta img dentro de la etiqueta a.
 Permite crear enlaces visuales que incluyen imágenes.
 
 ```html
@@ -325,7 +325,7 @@ Permite enlazar recursos como imágenes y archivos CSS de manera eficiente.
 ```
 
 ## 24. Tablas en HTML
-Las tablas en HTML se crean utilizando las etiquetas <table>, <tr> para las filas y <td> para las celdas.
+Las tablas en HTML se crean utilizando las etiquetas table, tr para las filas y td para las celdas.
 Permite organizar datos de manera tabular en una página web.
 
 ```html
@@ -342,16 +342,16 @@ Permite organizar datos de manera tabular en una página web.
 ```
 
 ## 24.1 Partes de una Tabla en HTML
-1. Etiqueta <table>
-La etiqueta <table> envuelve toda la estructura de la tabla
+1. Etiqueta table
+La etiqueta table envuelve toda la estructura de la tabla
 ```html
 <table>
     <!-- Contenido de la tabla va aquí -->
 </table>
 ```
 
-2. Etiqueta <thead>
-La sección de encabezado de la tabla, que generalmente contiene las etiquetas <th>.
+2. Etiqueta thead
+La sección de encabezado de la tabla, que generalmente contiene las etiquetas th.
 ```html
 <thead>
     <tr>
@@ -361,7 +361,7 @@ La sección de encabezado de la tabla, que generalmente contiene las etiquetas <
 </thead>
 ```
 
-3. Etiqueta <tbody>
+3. Etiqueta tbody
 La sección del cuerpo de la tabla, donde se encuentran las filas y celdas principales.
 ```html
 <tbody>
@@ -373,7 +373,7 @@ La sección del cuerpo de la tabla, donde se encuentran las filas y celdas princ
 </tbody>
 ```
 
-4. Etiqueta <tfoot>
+4. Etiqueta tfoot
 La sección del pie de la tabla, que generalmente contiene resúmenes o totales.
 ```html
 <tfoot>
@@ -384,7 +384,7 @@ La sección del pie de la tabla, que generalmente contiene resúmenes o totales.
 </tfoot>
 ```
 
-5.  Etiqueta <tr>
+5.  Etiqueta tr
 Define una fila dentro de la tabla.
 ```html
 <tr>
@@ -393,7 +393,7 @@ Define una fila dentro de la tabla.
 </tr>
 ```
 
-6. Etiqueta <th>
+6. Etiqueta th
 Define una celda de encabezado dentro de la tabla.
 ```html
 <tr>
@@ -402,7 +402,7 @@ Define una celda de encabezado dentro de la tabla.
 </tr>
 ```
 
-6. Etiqueta <td>
+6. Etiqueta td
 Define una celda de datos dentro de la tabla.
 ```html
 <tr>

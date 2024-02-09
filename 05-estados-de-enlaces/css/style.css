@@ -1,0 +1,27 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.btn__google {
+    background-color: #4f46e5;
+    padding: 1rem 2.5rem;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 800;
+}
+
+.btn__google i {
+    color: cyan;
+    margin: 0 5px 0 0;
+    font-size: 30px;
+}

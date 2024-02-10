@@ -15,20 +15,20 @@ Antes de sumergirnos en el desarrollo web, es crucial instalar las herramientas 
 ## 2. Configuración de Visual Studio Code
 La configuración de Visual Studio Code es clave para personalizar el entorno de desarrollo según tus preferencias. Además, la instalación de extensiones puede potenciar las capacidades del editor, proporcionando herramientas y funcionalidades adicionales.
 
-Pasos para instalar extensiones:
-Abrir Visual Studio Code: Inicia el editor de código Visual Studio Code.
+### Pasos para instalar extensiones:
+ - Abrir Visual Studio Code: Inicia el editor de código Visual Studio Code.
 
-Ir a la sección de Extensiones: Puedes acceder a las extensiones desde la barra lateral izquierda o usando el atajo de teclado Ctrl + Shift + X (Windows/Linux) o Cmd + Shift + X (Mac).
+- Ir a la sección de Extensiones: Puedes acceder a las extensiones desde la barra lateral izquierda o usando el atajo de teclado Ctrl + Shift + X (Windows/Linux) o Cmd + Shift + X (Mac).
 
-Buscar extensiones: Utiliza la barra de búsqueda para encontrar las extensiones deseadas. A continuación, te presento algunas extensiones recomendadas:
+- Buscar extensiones: Utiliza la barra de búsqueda para encontrar las extensiones deseadas. A continuación, te presento algunas extensiones recomendadas:
 
-Auto Close Tag: Cierra automáticamente las etiquetas HTML.
-Auto Rename Tag: Renombra automáticamente la etiqueta de cierre cuando se modifica la etiqueta de apertura.
-HTML CSS Support: Proporciona autocompletado de clases y IDs CSS en archivos HTML.
-Live Server: Permite iniciar un servidor local para visualizar cambios en tiempo real en el navegador.
-Prettier: Formatea automáticamente el código para mantener un estilo consistente.
+- Auto Close Tag: Cierra automáticamente las etiquetas HTML.
+- Auto Rename Tag: Renombra automáticamente la etiqueta de cierre cuando se modifica la etiqueta de apertura.
+- HTML CSS Support: Proporciona autocompletado de clases y IDs CSS en archivos HTML.
+- Live Server: Permite iniciar un servidor local para visualizar cambios en tiempo real en el navegador.
+- Prettier: Formatea automáticamente el código para mantener un estilo consistente.
 
-Instalar extensiones: Haz clic en el botón "Instalar" junto a cada extensión que desees agregar a Visual Studio Code.
+- Instalar extensiones: Haz clic en el botón "Instalar" junto a cada extensión que desees agregar a Visual Studio Code.
 
 ## 3. Creando mi primer documento HTML
 Pasos:

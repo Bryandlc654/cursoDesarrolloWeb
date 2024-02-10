@@ -34,18 +34,21 @@ Instalar extensiones: Haz clic en el botón "Instalar" junto a cada extensión q
 Pasos:
 
 1. Crea una carpeta para tu proyecto:
-    1.1 Abre tu explorador de archivos y crea una nueva carpeta para tu proyecto, por ejemplo, "MiPrimerProyectoWeb".
+    - Abre tu explorador de archivos y crea una nueva carpeta para tu proyecto, por ejemplo, "MiPrimerProyectoWeb".
 
 2. Abre Visual Studio Code:
-    2.1 Abre Visual Studio Code y selecciona la opción "Abrir carpeta" desde el menú principal.
-    2.2 Navega y selecciona la carpeta que acabas de crear.
+    - Abre Visual Studio Code y selecciona la opción "Abrir carpeta" desde el menú principal.
+    - Navega y selecciona la carpeta que acabas de crear.
+
 3. Crea el archivo index.html:
-    3.1 En Visual Studio Code, dentro de la carpeta del proyecto, haz clic derecho y elige "Nuevo archivo".
-    3.2 Nombre del archivo: index.html
+    - En Visual Studio Code, dentro de la carpeta del proyecto, haz clic derecho y elige "Nuevo archivo".
+    - Nombre del archivo: index.html
+
 4. Agrega la estructura básica de HTML:
-    4.1Abre index.html y escribe ! y presiona Tab. Esto generará automáticamente la estructura básica de HTML.
+    - Abre index.html y escribe ! y presiona Tab. Esto generará automáticamente la estructura básica de HTML.
+
 5. Modifica el contenido del HTML:
-    5.1 Dentro de la etiqueta <body>, puedes cambiar el contenido según tus preferencias. Por ejemplo:
+    - Dentro de la etiqueta <body>, puedes cambiar el contenido según tus preferencias. Por ejemplo:
 
 ```html
 <!DOCTYPE html>
@@ -63,12 +66,12 @@ Pasos:
 ```
 
 6. Guarda el archivo:
-    6.1 Guarda el archivo index.html (Ctrl + S en Windows/Linux o Cmd + S en Mac).
+    - Guarda el archivo index.html (Ctrl + S en Windows/Linux o Cmd + S en Mac).
 
 7. Visualiza tu página en un navegador:
-    7.1 Abre tu navegador web (por ejemplo, Google Chrome).
-    7.2 Arrastra y suelta el archivo index.html en la ventana del navegador.
-    7.3 Deberías ver tu primera página HTML con el título "Mi Primer Documento HTML" y algunos elementos de texto.
+    - Abre tu navegador web (por ejemplo, Google Chrome).
+    - Arrastra y suelta el archivo index.html en la ventana del navegador.
+    - Deberías ver tu primera página HTML con el título "Mi Primer Documento HTML" y algunos elementos de texto.
     
     Con estos pasos, has creado una carpeta, abierto Visual Studio Code, creado un archivo HTML y agregado la estructura básica para tu primer documento HTML. Puedes continuar modificando y experimentando con el contenido de tu página web
 

@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #6F11F5;
+}
+
+:root {
+    --color-btn: #6F11F5;
+    --background-form: #F9F6FD;
+    --color-white: #fff;
+    --body-background: #D8E2FB;
+    --white-grad-1: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+}
+
+.form {
+    background-color: var(--body-background);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#myCanvas{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.form__background {
+    position: absolute;
+    background-color: #ffffffb6;
+    border-radius: 1.5rem;
+    height: 26rem;
+    width: 22rem;
+    padding: 2rem;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.form__containerButtons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 26px;
+}
+
+.form__button {
+    padding: .8rem 1.8rem;
+    font-size: .8rem;
+    border-radius: 10px;
+    text-decoration: none;
+    display: flex;
+    gap: 5px;
+    font-weight: 600;
+}
+
+.active {
+    background-color: var(--color-btn);
+    color: var(--color-white);
+}
+
+.disabled {
+    color: var(--color-btn);
+}
+
+.form__containerInputs {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.form__boxInput{
+    background-color: var(--background-form);
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    padding: 0 .8rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.form__boxInput i{
+    color: #9c9c9c;
+}
+
+.form__containerInputs .input {
+    background-color: var(--background-form);
+    padding: 1rem .8rem;
+    border: none;
+    width: 100%;
+}
+
+.form__containerInputs input::placeholder {
+    color: #9c9c9c;
+}
+
+.form__containerInputs a {
+    color: var(--color-btn);
+    text-decoration: none;
+    font-size: .8rem;
+}
+
+.form__checkbox{
+    display: flex;
+}
+
+.form__check {
+    font-size: .8rem;
+}
+
+.form__check input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+button {
+    display: flex;
+    width: 100%;
+    border: none;
+    margin-top: 12px;
+    padding: .8rem 1.8rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: var(--color-btn);
+    color: var(--color-white);
+    font-weight: 600;
+    font-size: .95rem;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.form__account {
+    padding: .8rem 2rem;
+    background-color: var(--color-white);
+    margin-top: 18px;
+    font-size: .8rem;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.form__account a {
+    text-decoration: none;
+    color: var(--color-btn);
+
+}
